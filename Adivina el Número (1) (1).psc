@@ -1,4 +1,4 @@
-Proceso sin_titulo
+6Proceso sin_titulo
 	Definir numeroSecreto, numeroJugador Como Entero;
 	Definir intentos Como Entero;
 	Definir encontrado Como Logico;
@@ -9,22 +9,22 @@ Proceso sin_titulo
 	encontrado <- Falso;
 	
 	// Mensaje de bienvenida
-	Escribir "Bienvenido al juego de adivinar el número.";
-	Escribir "He escogido un número entre 1 y 100.";
+	Escribir "Bienvenido al juego de adivinar el nÃºmero.";
+	Escribir "He escogido un nÃºmero entre 1 y 100.";
 	
-	// Bucle para intentar adivinar el número
+	// Bucle para intentar adivinar el nÃºmero
 	Mientras No encontrado Hacer
 		Escribir "Introduce tu adivinanza (entre 1 y 100): ";
 		Leer numeroJugador;
 		intentos <- intentos + 1;
 		
 		Si numeroJugador < numeroSecreto Entonces
-			Escribir "El número es mayor.";
+			Escribir "El nÃºmero es mayor.";
 		Sino
 			Si numeroJugador > numeroSecreto Entonces
-				Escribir "El número es menor.";
+				Escribir "El nÃºmero es menor.";
 			Sino
-				Escribir "¡Felicidades! Has adivinado el número en ", intentos, " intentos.";
+				Escribir "Â¡Felicidades! Has adivinado el nÃºmero en ", intentos, " intentos.";
 				encontrado <- Verdadero;
 			FinSi;
 		FinSi;
