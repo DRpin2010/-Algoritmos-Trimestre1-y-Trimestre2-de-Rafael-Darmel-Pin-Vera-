@@ -4,19 +4,19 @@
 		Definir respuestaCorrecta Como Caracter;
 		puntaje <- 0;
 		cantidadPreguntas <- 3 ;
-		Escribir "Pregunta 1: ¿Cuál es la capital de Francia?";
-		Escribir "a) Berlín";
+		Escribir "Pregunta 1: Â¿CuÃ¡l es la capital de Francia?";
+		Escribir "a) BerlÃ­n";
 		Escribir "b) Madrid";
-		Escribir "c) París";
+		Escribir "c) ParÃ­s";
 		Escribir "d) Roma";
 		Leer respuestaUsuario;
 		respuestaCorrecta <- "c";
 		Si respuestaUsuario = respuestaCorrecta Entonces
 			puntaje <- puntaje + 1;
 		FinSi
-		Escribir "Pregunta 2: ¿Cuál es el elemento químico con símbolo O?";
+		Escribir "Pregunta 2: Â¿CuÃ¡l es el elemento quÃ­mico con sÃ­mbolo O?";
 		Escribir "a) Oro";
-		Escribir "b) Oxígeno";
+		Escribir "b) OxÃ­geno";
 		Escribir "c) Osmio";
 		Escribir "d) Osmio";
 		Leer respuestaUsuario;
@@ -24,10 +24,10 @@
 		Si respuestaUsuario = respuestaCorrecta Entonces
 			puntaje <- puntaje + 1;
 		FinSi
-		Escribir "Pregunta 3: ¿Cuál es el río más largo del mundo?";
+		Escribir "Pregunta 3: Â¿CuÃ¡l es el rÃ­o mÃ¡s largo del mundo?";
 		Escribir "a) Amazonas";
 		Escribir "b) Nilo";
-		Escribir "c) Yangtsé";
+		Escribir "c) YangtsÃ©";
 		Escribir "d) Misisipi";
 		Leer respuestaUsuario;
 		
@@ -35,5 +35,5 @@
 		Si respuestaUsuario = respuestaCorrecta Entonces
 			puntaje <- puntaje + 1;
 		FinSi
-		Escribir "Tu puntuación final es: ", puntaje, " de ", cantidadPreguntas;
+		Escribir "Tu puntuaciÃ³n final es: ", puntaje, " de ", cantidadPreguntas;
 FinAlgoritmo
