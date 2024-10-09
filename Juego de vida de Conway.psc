@@ -27,28 +27,28 @@ Proceso Juego_de_vida_de_Conway
     FinPara
     
 	
-    Escribir '¿Cuántas células deseas ingresar?';
+    Escribir 'Â¿CuÃ¡ntas cÃ©lulas deseas ingresar?';
     Leer D;
     
     Mientras D <= 0 Hacer
-        Escribir "Ese número no es válido, prueba con otro.";
+        Escribir "Ese nÃºmero no es vÃ¡lido, prueba con otro.";
         Leer D;
     FinMientras
     
 	Repetir
-		Escribir 'Ingresa las coordenadas donde quieres crear una célula:';
+		Escribir 'Ingresa las coordenadas donde quieres crear una cÃ©lula:';
 		Escribir 'Ingresa la fila (1..11)';
 		Leer F;
 		Escribir 'Ingresa la columna (1..50)';
 		Leer C;
 		
 		Mientras F < 1 O F > 11 Hacer
-			Escribir 'Error: Ingresa una fila válida (1..11)';
+			Escribir 'Error: Ingresa una fila vÃ¡lida (1..11)';
 			Leer F;
 		FinMientras
 		
 		Mientras C < 1 O C > 50 Hacer
-			Escribir 'Error: Ingresa una columna válida (1..50)';
+			Escribir 'Error: Ingresa una columna vÃ¡lida (1..50)';
 			Leer C;
 		FinMientras
 		
@@ -93,7 +93,7 @@ Proceso Juego_de_vida_de_Conway
 				FinSi
 			FinPara
 		FinPara
-		Escribir "-----------------------------------------------------------------------------", "generación ", G;
+		Escribir "-----------------------------------------------------------------------------", "generaciÃ³n ", G;
 		G<-G+1;
 		Para i <- 1 Hasta 11 Con Paso 1 Hacer
 			Para j <- 1 Hasta 50 Con Paso 1 Hacer
@@ -105,6 +105,6 @@ Proceso Juego_de_vida_de_Conway
 		x<-x-1;
 	Hasta Que x = 0
 	
-	Escribir 'Fin de la simulación.';
+	Escribir 'Fin de la simulaciÃ³n.';
     
 FinProceso
