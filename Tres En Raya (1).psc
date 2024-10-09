@@ -26,16 +26,16 @@ Proceso Tres_En_Raya
         Escribir " =====++=====++======";
         Escribir "   ", Tablero[3,1], "  ||  ", Tablero[3,2], "  ||  ", Tablero[3,3];
         Si Ganador Entonces
-            Escribir "¡Tenemos un ganador!";
+            Escribir "Â¡Tenemos un ganador!";
             Si TurnoJugador1 Entonces 
-                Escribir "¡Jugador 1 (X) gana!";
+                Escribir "Â¡Jugador 1 (X) gana!";
             Sino;
-                Escribir "¡Jugador 2 (O) gana!";
+                Escribir "Â¡Jugador 2 (O) gana!";
             FinSi;
             Terminado <- Verdadero;
         Sino;
             Si CantTurnos = 9 Entonces
-                Escribir "¡Empate! No hay ganador.";
+                Escribir "Â¡Empate! No hay ganador.";
                 Terminado <- Verdadero;
             FinSi;
         FinSi;
@@ -47,11 +47,11 @@ Proceso Tres_En_Raya
                 Ficha <- "O";
                 Escribir "Turno del jugador 2 (O)";
             FinSi;
-            Escribir "Ingrese la posición (1-9): ";
+            Escribir "Ingrese la posiciÃ³n (1-9): ";
             Repetir;
                 Leer Pos;
                 Si Pos < 1 O Pos > 9 Entonces
-                    Escribir "Posición inválida. Intente nuevamente: ";
+                    Escribir "PosiciÃ³n invÃ¡lida. Intente nuevamente: ";
                 Sino;
                     i <- Trunc((Pos - 1) / 3) + 1;
                     j <- (Pos - 1) MOD 3 + 1;
