@@ -5,7 +5,7 @@ Algoritmo SumarPositivo
 		Dimension n[13];
 		tamano <- 12;
 		Para i <- 1 Hasta tamano Hacer
-			Escribir "Ingrese el número", i, ":";
+			Escribir "Ingrese el nÃºmero", i, ":";
 			Leer n[i];
 		FinPara
 		sumaPositivos <- 0;
@@ -14,5 +14,5 @@ Algoritmo SumarPositivo
 				sumaPositivos <- sumaPositivos + n[i];
 			FinSi
 		FinPara
-		Escribir "La suma de los números positivos es: ", sumaPositivos;
+		Escribir "La suma de los nÃºmeros positivos es: ", sumaPositivos;
 FinAlgoritmo
