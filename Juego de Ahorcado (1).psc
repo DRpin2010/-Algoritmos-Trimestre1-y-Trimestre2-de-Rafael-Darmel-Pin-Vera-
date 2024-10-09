@@ -12,7 +12,7 @@ Proceso sin_titulo
         Leer palabraFormada;
         Si palabraFormada = palabraCorrecta Entonces
             intentoValido <- Verdadero;
-            Escribir "¡Correcto! Has formado la palabra: ", palabraCorrecta;
+            Escribir "Â¡Correcto! Has formado la palabra: ", palabraCorrecta;
         Sino
             Escribir "Incorrecto. Intenta de nuevo.";
         FinSi
