@@ -29,7 +29,7 @@ Algoritmo LanzamientoDeDadosEstadisticas
         FinSegun
     FinPara
 	
-    // Mostrar las estadísticas
+    // Mostrar las estadÃ­sticas
     Escribir "Estadisticas de los lanzamientos:";
     Escribir "Numero de veces que salio el 1: ", contador1;
     Escribir "Numero de veces que salio el 2: ", contador2;
