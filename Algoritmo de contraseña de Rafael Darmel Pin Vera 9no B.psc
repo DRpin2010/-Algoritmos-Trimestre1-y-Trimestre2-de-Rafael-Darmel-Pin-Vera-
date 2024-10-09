@@ -15,7 +15,7 @@ Algoritmo TresIntentosContrasena
         Sino
             intentos <- intentos + 1;
             Si intentos < 3 Entonces
-                Escribir "Contraseña incorrecta. Intentos restantes: ", 3 - intentos;
+                Escribir "ContraseÃ±a incorrecta. Intentos restantes: ", 3 - intentos;
             SiNo
                 Escribir "Acceso denegado. Ha agotado los intentos.";
             FinSi
